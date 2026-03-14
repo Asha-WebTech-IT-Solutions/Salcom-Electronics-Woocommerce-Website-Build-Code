@@ -1,0 +1,886 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: برگه رسید فروشگاه\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"delivery-notes\n"
+"POT-Creation-Date: 2024-06-04T11:01:47+00:00\n"
+"PO-Revision-Date: 2024-06-04 17:11+0530\n"
+"Last-Translator: Khalil Delavaran <khalil.delavaran@gmail.com>\n"
+"Language-Team: www.qooqnos.com <khalil.delavaran@gmail.com>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. Plugin Name of the plugin
+#, fuzzy
+#| msgid "WooCommerce Print Invoices & Delivery Notes"
+msgid "Print Invoice & Delivery Notes for WooCommerce"
+msgstr "چاپ فاکتور و برگه رسید در ووکامرس"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.tychesoftwares.com/"
+msgstr ""
+
+#. Description of the plugin
+#, fuzzy
+#| msgid "WooCommerce Print Invoices & Delivery Notes"
+msgid "Print Invoices & Delivery Notes for WooCommerce Orders."
+msgstr "چاپ فاکتور و برگه رسید در ووکامرس"
+
+#. Author of the plugin
+msgid "Tyche Softwares"
+msgstr ""
+
+#: includes/admin/views/Preview_template/default-preview-template.php:61
+#: includes/admin/wcdn-admin-function.php:31
+#: templates/pdf/default/deliverynote/template.php:41
+#: templates/pdf/default/invoice/template.php:41
+#: templates/pdf/default/receipt/template.php:41
+#: templates/print-order/print-content.php:41
+msgid "Billing Address"
+msgstr ""
+
+#: includes/admin/views/Preview_template/default-preview-template.php:66
+#: includes/admin/views/Preview_template/default-preview-template.php:81
+#: includes/admin/views/Preview_template/deliverynote-preview-template.php:75
+#: includes/admin/views/Preview_template/deliverynote-preview-template.php:107
+#: includes/admin/views/Preview_template/invoice-preview-template.php:71
+#: includes/admin/views/Preview_template/invoice-preview-template.php:104
+#: includes/admin/views/Preview_template/receipt-preview-template.php:75
+#: includes/admin/views/Preview_template/receipt-preview-template.php:108
+#: templates/pdf/default/deliverynote/template.php:45
+#: templates/pdf/default/deliverynote/template.php:59
+#: templates/pdf/default/invoice/template.php:45
+#: templates/pdf/default/invoice/template.php:59
+#: templates/pdf/default/receipt/template.php:45
+#: templates/pdf/default/receipt/template.php:59
+#: templates/pdf/simple/deliverynote/template.php:83
+#: templates/pdf/simple/deliverynote/template.php:122
+#: templates/pdf/simple/invoice/template.php:83
+#: templates/pdf/simple/invoice/template.php:122
+#: templates/pdf/simple/receipt/template.php:85
+#: templates/pdf/simple/receipt/template.php:124
+#: templates/print-order/print-content.php:46
+#: templates/print-order/print-content.php:61
+#: templates/print-order/simple/deliverynote/print-content.php:76
+#: templates/print-order/simple/deliverynote/print-content.php:115
+#: templates/print-order/simple/invoice/print-content.php:77
+#: templates/print-order/simple/invoice/print-content.php:116
+#: templates/print-order/simple/receipt/print-content.php:79
+#: templates/print-order/simple/receipt/print-content.php:118
+msgid "N/A"
+msgstr "خالی"
+
+#: includes/admin/views/Preview_template/default-preview-template.php:76
+#: includes/admin/wcdn-admin-function.php:32
+#: templates/pdf/default/deliverynote/template.php:55
+#: templates/pdf/default/invoice/template.php:55
+#: templates/pdf/default/receipt/template.php:55
+#: templates/print-order/print-content.php:56
+msgid "Shipping Address"
+msgstr ""
+
+#: includes/admin/views/Preview_template/default-preview-template.php:140
+#: includes/admin/views/Preview_template/deliverynote-preview-template.php:180
+#: includes/admin/views/Preview_template/invoice-preview-template.php:177
+#: includes/admin/views/Preview_template/receipt-preview-template.php:197
+#: templates/pdf/default/deliverynote/template.php:93
+#: templates/pdf/default/invoice/template.php:93
+#: templates/pdf/default/receipt/template.php:93
+#: templates/pdf/simple/deliverynote/template.php:184
+#: templates/pdf/simple/invoice/template.php:181
+#: templates/pdf/simple/receipt/template.php:196
+#: templates/print-order/print-content.php:97
+#: templates/print-order/simple/deliverynote/print-content.php:177
+#: templates/print-order/simple/invoice/print-content.php:175
+#: templates/print-order/simple/receipt/print-content.php:190
+msgid "Product"
+msgstr "کالا"
+
+#: includes/admin/views/Preview_template/default-preview-template.php:141
+#: includes/admin/views/Preview_template/deliverynote-preview-template.php:181
+#: includes/admin/views/Preview_template/invoice-preview-template.php:178
+#: includes/admin/views/Preview_template/receipt-preview-template.php:198
+#: templates/pdf/default/deliverynote/template.php:94
+#: templates/pdf/default/invoice/template.php:94
+#: templates/pdf/default/receipt/template.php:94
+#: templates/pdf/simple/deliverynote/template.php:187
+#: templates/pdf/simple/invoice/template.php:182
+#: templates/pdf/simple/receipt/template.php:197
+#: templates/print-order/print-content.php:98
+#: templates/print-order/simple/deliverynote/print-content.php:180
+#: templates/print-order/simple/invoice/print-content.php:176
+#: templates/print-order/simple/receipt/print-content.php:191
+msgid "Price"
+msgstr ""
+
+#: includes/admin/views/Preview_template/default-preview-template.php:142
+#: includes/admin/views/Preview_template/deliverynote-preview-template.php:182
+#: includes/admin/views/Preview_template/invoice-preview-template.php:179
+#: includes/admin/views/Preview_template/receipt-preview-template.php:199
+#: templates/pdf/default/deliverynote/template.php:95
+#: templates/pdf/default/invoice/template.php:95
+#: templates/pdf/default/receipt/template.php:95
+#: templates/pdf/simple/deliverynote/template.php:189
+#: templates/pdf/simple/invoice/template.php:183
+#: templates/pdf/simple/receipt/template.php:198
+#: templates/print-order/print-content.php:99
+#: templates/print-order/simple/deliverynote/print-content.php:182
+#: templates/print-order/simple/invoice/print-content.php:177
+#: templates/print-order/simple/receipt/print-content.php:192
+msgid "Quantity"
+msgstr "کمیت"
+
+#: includes/admin/views/Preview_template/default-preview-template.php:143
+#: includes/admin/views/Preview_template/deliverynote-preview-template.php:183
+#: includes/admin/views/Preview_template/invoice-preview-template.php:180
+#: includes/admin/views/Preview_template/receipt-preview-template.php:200
+#: templates/pdf/default/deliverynote/template.php:96
+#: templates/pdf/default/invoice/template.php:96
+#: templates/pdf/default/receipt/template.php:96
+#: templates/pdf/simple/deliverynote/template.php:192
+#: templates/pdf/simple/invoice/template.php:184
+#: templates/pdf/simple/receipt/template.php:199
+#: templates/print-order/print-content.php:100
+#: templates/print-order/simple/deliverynote/print-content.php:185
+#: templates/print-order/simple/invoice/print-content.php:178
+#: templates/print-order/simple/receipt/print-content.php:193
+msgid "Total"
+msgstr ""
+
+#: includes/admin/views/Preview_template/default-preview-template.php:257
+#: includes/wcdn-template-functions.php:948
+#: templates/print-order/print-content.php:214
+msgid "Download:"
+msgstr "دانلود:"
+
+#. translators: files count.
+#: includes/admin/views/Preview_template/default-preview-template.php:261
+#: includes/wcdn-template-functions.php:952
+#: templates/print-order/print-content.php:218
+msgid "%s Files"
+msgstr ""
+
+#: includes/admin/views/Preview_template/default-preview-template.php:323
+#: includes/admin/wcdn-admin-function.php:35
+#: templates/pdf/default/deliverynote/template.php:162
+#: templates/pdf/default/invoice/template.php:162
+#: templates/pdf/default/receipt/template.php:162
+#: templates/print-order/print-content.php:280
+msgid "Customer Note"
+msgstr ""
+
+#: includes/admin/views/wcdn-document.php:18
+#, fuzzy
+#| msgid "Print Invoice"
+msgid "Enable Invoice"
+msgstr "چاپ فاکتور"
+
+#: includes/admin/views/wcdn-document.php:20
+#: includes/admin/views/wcdn-document.php:30
+#: includes/admin/views/wcdn-document.php:40
+msgid "Enable button that will display on admin side order page."
+msgstr ""
+
+#: includes/admin/views/wcdn-document.php:28
+msgid "Enable Receipt"
+msgstr ""
+
+#: includes/admin/views/wcdn-document.php:38
+#, fuzzy
+#| msgid "Delivery Note"
+msgid "Enable Delivery Notes"
+msgstr "برگه رسید"
+
+#: includes/admin/views/wcdn-general.php:15
+msgid "Shop Details"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:19
+#, fuzzy
+#| msgid "Set Logo"
+msgid "Logo"
+msgstr "گذاشتن لوگو"
+
+#: includes/admin/views/wcdn-general.php:21
+msgid ""
+"A shop logo representing your business. When the image is printed, its pixel "
+"density will automatically be eight times higher than the original. This "
+"means, 1 printed inch will correspond to about 288 pixels on the screen."
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:67
+msgid "Logo Size"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:69
+msgid " Shop Logo height x width value. Default value is 125 x 125."
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:88
+msgid "Name"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:90
+msgid ""
+"The shop name. Leave blank to use the default Website or Blog title defined "
+"in WordPress settings. The name will be ignored when a Logo is set."
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:95
+msgid "Address"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:97
+msgid "The postal address of the shop or even e-mail or telephone."
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:102
+#: includes/admin/wcdn-admin-function.php:36
+msgid "Complimentary Close"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:104
+msgid "Add a personal close, notes or season greetings."
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:109
+#: includes/admin/wcdn-admin-function.php:37
+msgid "Policies"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:111
+msgid "Add the shop policies, conditions, etc."
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:116
+#: includes/admin/wcdn-admin-function.php:38
+msgid "Footer"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:118
+msgid ""
+"Add a footer imprint, instructions, copyright notes, e-mail, telephone, etc."
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:124
+msgid "Pages & Buttons"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:128
+msgid "Print Page Endpoint"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:130
+msgid ""
+"The endpoint is appended to the accounts page URL to print the order. It "
+"should be unique."
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:135
+#: includes/wcdn-template-functions.php:485
+msgid "Email"
+msgstr "ایمیل"
+
+#: includes/admin/views/wcdn-general.php:137
+msgid ""
+"This includes the emails for a new, processing and completed order. On top "
+"of that the customer and admin invoice emails will also include the link."
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:142
+msgid "Show print link in customer emails"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:151
+msgid "Show print link in admin emails"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:155
+msgid "My Account"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:157
+msgid "This includes print button on View Order page and My Account page."
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:162
+msgid "Show print button on View Order page"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:171
+msgid "Show print button on My Account page"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:177
+msgid ""
+"To Store PDF files in the \\wp-content\\uploads\\wcdn\\ folder for a "
+"specific duration, like X days, with a default value of 7 days"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:190
+msgid "Template Type"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:196
+msgid ""
+"You have the option to customize the Simple template to your liking, or you "
+"can stick with the default display.\t"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:206
+msgid "Text Direction"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:208
+msgid ""
+"Show text in right to left direction in Invoice, Print Receipt & Delivery "
+"note if you are using languages such as Hebrew, Arabic, etc."
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:213
+msgid "Print Text from Right to left"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:217
+msgid "Reset usage tracking"
+msgstr ""
+
+#: includes/admin/views/wcdn-general.php:219
+msgid ""
+"This will reset your usage tracking settings, causing it to show the opt-in "
+"banner again and not sending any data"
+msgstr ""
+
+#: includes/admin/views/wcdn-header.php:12
+msgid "General"
+msgstr ""
+
+#: includes/admin/views/wcdn-header.php:13
+msgid "Templates"
+msgstr ""
+
+#: includes/admin/views/wcdn-header.php:14
+msgid "Help & Guide"
+msgstr ""
+
+#: includes/admin/views/wcdn-helpguide.php:11
+msgid "Filters"
+msgstr ""
+
+#: includes/admin/views/wcdn-helpguide.php:14
+msgid "FAQ"
+msgstr "پرسش و پاسخ"
+
+#: includes/admin/wcdn-admin-function.php:20
+msgid "Numbering"
+msgstr ""
+
+#: includes/admin/wcdn-admin-function.php:21
+msgid "Email Attach To"
+msgstr ""
+
+#: includes/admin/wcdn-admin-function.php:22
+msgid "Document Title"
+msgstr ""
+
+#: includes/admin/wcdn-admin-function.php:23
+#, fuzzy
+#| msgid "Company/Shop Logo"
+msgid "Company Logo"
+msgstr "لوگوی شرکت/فروشگاه"
+
+#: includes/admin/wcdn-admin-function.php:24
+#, fuzzy
+#| msgid "Company/Shop Name"
+msgid "Company Name"
+msgstr "نام شرکت/فروشگاه"
+
+#: includes/admin/wcdn-admin-function.php:25
+#, fuzzy
+#| msgid "Company/Shop Address"
+msgid "Company Address"
+msgstr "آدرس شرکت/فروشگاه"
+
+#: includes/admin/wcdn-admin-function.php:26
+#: includes/wcdn-template-functions.php:371
+#: includes/wcdn-template-functions.php:384
+msgid "Invoice Number"
+msgstr ""
+
+#: includes/admin/wcdn-admin-function.php:27
+#: includes/wcdn-template-functions.php:402
+#: includes/wcdn-template-functions.php:414
+msgid "Order Number"
+msgstr "شماره سفارش"
+
+#: includes/admin/wcdn-admin-function.php:28
+#: includes/wcdn-template-functions.php:423
+#: includes/wcdn-template-functions.php:435
+msgid "Order Date"
+msgstr "تاریخ سفارش"
+
+#: includes/admin/wcdn-admin-function.php:29
+#: includes/wcdn-template-functions.php:444
+#: includes/wcdn-template-functions.php:447
+#: includes/wcdn-template-functions.php:457
+msgid "Payment Method"
+msgstr "روش پرداخت"
+
+#: includes/admin/wcdn-admin-function.php:30
+#: includes/wcdn-template-functions.php:471
+#, fuzzy
+#| msgid "Payment Method"
+msgid "Payment Date"
+msgstr "روش پرداخت"
+
+#: includes/admin/wcdn-admin-function.php:33
+#, fuzzy
+#| msgid "Company/Shop Address"
+msgid "Email Address"
+msgstr "آدرس شرکت/فروشگاه"
+
+#: includes/admin/wcdn-admin-function.php:34
+#, fuzzy
+#| msgid "Order Number"
+msgid "Phone Number"
+msgstr "شماره سفارش"
+
+#: includes/admin/wcdn-admin-function.php:39
+msgid "Payment Received Stamp"
+msgstr ""
+
+#: includes/admin/wcdn-admin-function.php:40
+msgid "Display price in product details table"
+msgstr ""
+
+#: includes/admin/wcdn-admin-function.php:239
+msgid "Next Number"
+msgstr ""
+
+#: includes/admin/wcdn-admin-function.php:247
+msgid "Suffix"
+msgstr ""
+
+#: includes/admin/wcdn-admin-function.php:255
+msgid "Prefix"
+msgstr ""
+
+#: includes/class-wcdn-print.php:101 includes/class-wcdn-settings.php:465
+#: includes/class-wcdn-settings.php:476 includes/class-wcdn-settings.php:477
+msgid "Invoice"
+msgstr "فاکتور"
+
+#: includes/class-wcdn-print.php:102
+msgid "Invoices"
+msgstr ""
+
+#: includes/class-wcdn-print.php:103 includes/class-wcdn-writepanel.php:128
+msgid "Print Invoice"
+msgstr "چاپ فاکتور"
+
+#: includes/class-wcdn-print.php:104
+msgid "Print Invoices"
+msgstr ""
+
+#: includes/class-wcdn-print.php:105
+msgid "Invoice created."
+msgstr ""
+
+#: includes/class-wcdn-print.php:106
+msgid "Invoices created."
+msgstr ""
+
+#: includes/class-wcdn-print.php:107
+msgid "Show \"Print Invoice\" button"
+msgstr ""
+
+#: includes/class-wcdn-print.php:116
+msgid "Delivery Note"
+msgstr "برگه رسید"
+
+#: includes/class-wcdn-print.php:117
+msgid "Delivery Notes"
+msgstr ""
+
+#: includes/class-wcdn-print.php:118 includes/class-wcdn-writepanel.php:129
+msgid "Print Delivery Note"
+msgstr "چاپ برگه رسید"
+
+#: includes/class-wcdn-print.php:119
+msgid "Print Delivery Notes"
+msgstr ""
+
+#: includes/class-wcdn-print.php:120
+msgid "Delivery Note created."
+msgstr ""
+
+#: includes/class-wcdn-print.php:121
+msgid "Delivery Notes created."
+msgstr ""
+
+#: includes/class-wcdn-print.php:122
+msgid "Show \"Print Delivery Note\" button"
+msgstr ""
+
+#: includes/class-wcdn-print.php:131
+msgid "Receipt"
+msgstr ""
+
+#: includes/class-wcdn-print.php:132
+msgid "Receipts"
+msgstr ""
+
+#: includes/class-wcdn-print.php:133 includes/class-wcdn-writepanel.php:130
+msgid "Print Receipt"
+msgstr ""
+
+#: includes/class-wcdn-print.php:134
+msgid "Print Receipts"
+msgstr ""
+
+#: includes/class-wcdn-print.php:135
+msgid "Receipt created."
+msgstr ""
+
+#: includes/class-wcdn-print.php:136
+msgid "Receipts created."
+msgstr ""
+
+#: includes/class-wcdn-print.php:137
+msgid "Show \"Print Receipt\" button"
+msgstr ""
+
+#: includes/class-wcdn-print.php:150
+msgid "Order"
+msgstr ""
+
+#: includes/class-wcdn-print.php:151
+msgid "Orders"
+msgstr ""
+
+#: includes/class-wcdn-print.php:152
+msgid "Print Order"
+msgstr ""
+
+#: includes/class-wcdn-print.php:153
+msgid "Print Orders"
+msgstr ""
+
+#: includes/class-wcdn-print.php:168
+msgid "Default"
+msgstr ""
+
+#: includes/class-wcdn-settings.php:455
+msgid ""
+"Do you really want to reset the counter to zero? This process can't be "
+"undone."
+msgstr ""
+
+#: includes/class-wcdn-settings.php:531
+msgid "Admin"
+msgstr ""
+
+#: includes/class-wcdn-settings.php:534
+msgid ""
+"The print buttons are available on the order listing and on the order detail "
+"screen."
+msgstr ""
+
+#. translators: %s: invoice url, delivery note url, receipt url
+#: includes/class-wcdn-settings.php:576
+msgid ""
+"This section lets you customise the content. You can preview the <a "
+"href=\"%1$s\" target=\"%4$s\" class=\"%5$s\">invoice</a>, <a href=\"%2$s\" "
+"target=\"%4$s\" class=\"%5$s\">delivery note</a> or <a href=\"%3$s\" "
+"target=\"%4$s\" class=\"%5$s\">receipt</a> template."
+msgstr ""
+
+#: includes/class-wcdn-settings.php:643
+msgid "Select"
+msgstr ""
+
+#: includes/class-wcdn-settings.php:647
+msgid "Remove"
+msgstr ""
+
+#: includes/class-wcdn-theme.php:127 includes/class-wcdn-theme.php:164
+#: includes/wcdn-template-functions.php:143
+msgid "Print"
+msgstr "چاپ"
+
+#: includes/class-wcdn-theme.php:206
+msgid "Print your order"
+msgstr ""
+
+#: includes/class-wcdn-writepanel.php:240
+msgid "Print now"
+msgstr ""
+
+#: includes/class-wcdn-writepanel.php:259
+msgid "Order Printing"
+msgstr ""
+
+#: includes/class-wcdn-writepanel.php:290
+msgid "Invoice number: "
+msgstr ""
+
+#: includes/class-wcdn-writepanel.php:291
+msgid "Invoice date: "
+msgstr ""
+
+#: includes/class-woocommerce-delivery-notes.php:118
+#: includes/class-woocommerce-delivery-notes.php:125
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/class-woocommerce-delivery-notes.php:514
+msgid "Go to the settings page"
+msgstr "رفتن به برگه پیکربندی"
+
+#: includes/class-woocommerce-delivery-notes.php:514
+msgid "Settings"
+msgstr "پیکربندی"
+
+#: includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php:182
+msgid "Please select a reason for deactivation!"
+msgstr ""
+
+#: includes/wcdn-template-functions.php:393
+msgid "Invoice Date"
+msgstr ""
+
+#: includes/wcdn-template-functions.php:468
+#, fuzzy
+#| msgid "Payment Method"
+msgid "Payment date"
+msgstr "روش پرداخت"
+
+#: includes/wcdn-template-functions.php:492
+msgid "Telephone"
+msgstr ""
+
+#: includes/wcdn-template-functions.php:533
+msgid "SKU:"
+msgstr "بارکد:"
+
+#: includes/wcdn-template-functions.php:657
+msgid "Refund"
+msgstr ""
+
+#: includes/wcdn-template-functions.php:669
+msgid "Order Subtotal"
+msgstr ""
+
+#~ msgid ""
+#~ "You can <a href=\"%1$s\" target=\"%3$s\" class=\"%4$s\">preview the "
+#~ "invoice template</a> or <a href=\"%2$s\" target=\"%3$s\" "
+#~ "class=\"%4$s\">the delivery note template</a>."
+#~ msgstr ""
+#~ "<a href=\"%1$s\" target=\"%3$s\" class=\"%4$s\">پیش نمایش قالب فاکتور</a> "
+#~ "یا <a href=\"%2$s\" target=\"%3$s\" class=\"%4$s\">پیش نمایش برگه رسید</"
+#~ "a>."
+
+#~ msgid ""
+#~ "For more advanced control copy <code>woocommerce-delivery-notes/templates/"
+#~ "print/style.css</code> to <code>your-theme-name/woocommerce/print/style."
+#~ "css</code>."
+#~ msgstr ""
+#~ "برای کنترل پیشرفته کپی کن <code>your-theme-name/woocommerce/print/style."
+#~ "css</code> به <code>woocommerce-delivery-notes/templates/print/style.css</"
+#~ "code>"
+
+#~ msgid "Billing Date"
+#~ msgstr "تاریخ صورتحساب"
+
+#~ msgid "Shipping Date"
+#~ msgstr "تاریخ باربری"
+
+#~ msgid "Get Community Support"
+#~ msgstr "درخواست پشتیبانی از فروم"
+
+#~ msgid ""
+#~ "When the image is printed, its pixel density will automatically be eight "
+#~ "times higher than the original. This means, 1 printed inch will "
+#~ "correspond to about 288 pixels on the screen. Example: an image with a "
+#~ "width of 576 pixels and a height of 288 pixels will have a printed size "
+#~ "of about 2 inches to 1 inch."
+#~ msgstr ""
+#~ "زمانی که تصویر چاپ می شود، تراکم پیکسل آن به طور خودکار هشت برابر بیشتر "
+#~ "از اصل می شود. این به این معنی است که،چاپ 1 اینچ  به حدود 288 پیکسل بر "
+#~ "روی صفحه نمایش مطابقت دارد. به عنوان مثال: یک تصویر با عرض 576 پیکسل و "
+#~ "ارتفاع 288 پیکسل، اندازه چاپ در حدود 1 اینچ تا 2 اینچ می شود"
+
+#~ msgid "Totals"
+#~ msgstr "مجموع"
+
+#~ msgid "Remove Logo"
+#~ msgstr "برداشتن لوگو"
+
+#~ msgid "A company/shop logo representing your business."
+#~ msgstr "لوگوی شرکت/فروشگاه به نمایندگی از کسب و کار شما"
+
+#~ msgid "Your company/shop name for the Delivery Note."
+#~ msgstr "نام شرکت/فروشگاه برای برگه رسید"
+
+#~ msgid "Sequential order number"
+#~ msgstr "شماره سفارش پیاپی"
+
+#~ msgid "Sequential numbering is enabled."
+#~ msgstr "شماره گذاری پیاپی پویا شده است"
+
+#~ msgid ""
+#~ "Install and activate the free <a href=\"%s\">WooCommerce Sequential Order "
+#~ "Numbers</a> Plugin."
+#~ msgstr ""
+#~ "خواهشمند است افزونه <a href=\"%s\">WooCommerce Sequential Order Numbers</"
+#~ "a>را برپاسازی کرده و به و رایگان پویا کنید"
+
+#~ msgid "You do not have sufficient permissions to access this page."
+#~ msgstr "شما مجوز کافی برای دسترسی به این صفحه را ندارید"
+
+#~ msgid "Support"
+#~ msgstr "پشتیبانی"
+
+#~ msgid "Returns Policy, Conditions, etc.:"
+#~ msgstr "افزودن قوانین، شرایط، و موارد دیگر"
+
+#~ msgid "Weight:"
+#~ msgstr "وزن:"
+
+#~ msgid "Plugin: WooCommerce Print Invoices & Delivery Notes"
+#~ msgstr "پلاگین: چاپ فاکتور و برگه رسید در ووکامرس"
+
+#~ msgid "Note:"
+#~ msgstr "نکته:"
+
+#~ msgid ""
+#~ "The postal address of the company/shop, which gets printed right of the "
+#~ "company/shop name, above the order listings."
+#~ msgstr "آدرس پستی از شرکت/فروشگاه، که در بالای لیست سفارشات، چاپ می شود"
+
+#~ msgid ""
+#~ "Add some personal notes, or season greetings or whatever (e.g. Thank You "
+#~ "for Your Order!, Merry Christmas!, etc.)."
+#~ msgstr ""
+#~ "اضافه کردن بیشتر یادداشت های شخصی، همانند تشکر از خرید شما یا تبریک "
+#~ "مناسبت ها و موارد دیگر"
+
+#~ msgid ""
+#~ "Add some further footer imprint, copyright notes etc. to get the printed "
+#~ "sheets a bit more branded to your needs."
+#~ msgstr ""
+#~ "افزودن برخی از یادداشت ها در پاورقی، همانند مهر، یادداشت کپی رایت، دریافت "
+#~ "برگه های چاپ شده و یا افزودن لوگوهای تجاری."
+
+#~ msgid "About the Plugin"
+#~ msgstr "درباره افزونه"
+
+#~ msgid "For more information:"
+#~ msgstr "برای اطلاعات بیشتر:"
+
+#~ msgid "Frequently Asked Questions"
+#~ msgstr "پرسش های متداول"
+
+#~ msgid "Project on WordPress.org"
+#~ msgstr " WordPress.org پروژه در"
+
+#~ msgid "Project on GitHub"
+#~ msgstr "GitHub پروژه در"
+
+#~ msgid "Invoices and Delivery Notes"
+#~ msgstr "فاکتور و برگه رسید"
+
+#~ msgid ""
+#~ "Leave blank to use the default Website/ Blog title defined in WordPress "
+#~ "settings."
+#~ msgstr ""
+#~ "چنانچه نانوشته بماند، از عنوان تعریف شده وب سایت در تنظیمات وردپرس "
+#~ "استفاده می شود"
+
+#~ msgid "Leave blank to not print an address."
+#~ msgstr "چنانچه نانوشته بماند، آدرس چاپ نمی شود"
+
+#~ msgid "Personal Notes"
+#~ msgstr "یادداشت شخصی"
+
+#~ msgid "Leave blank to not print any personal notes."
+#~ msgstr "چنانچه نانوشته بماند، یادداشت های شخصی چاپ نمی شوند"
+
+#~ msgid ""
+#~ "Here you can add some more policies, conditions etc. For example add a "
+#~ "returns policy in case the client would like to send back some goods. In "
+#~ "some countries (e.g. in the European Union) this is required so please "
+#~ "add any required info in accordance with the statutory regulations."
+#~ msgstr ""
+#~ "در اینجا می توانید قوانین بیشتری را به اجرا بگذارید . همانند قانون برگشت "
+#~ "از فروش، و یا هر قانون و مقررات دولتی و موارد دیگر"
+
+#~ msgid "Leave blank to not print any policies or conditions."
+#~ msgstr "چنانچه نانوشته بماند، هیچ کدام از قوانین و شرایط چاپ نمی شود"
+
+#~ msgid "Footer Imprint"
+#~ msgstr "مهر پاورقی"
+
+#~ msgid "Leave blank to not print a footer."
+#~ msgstr "چنانچه نانوشته بماند، پاورقی چاپ نمی شود"
+
+#~ msgid "Order Numbering Options"
+#~ msgstr "پیکربندی شماره گذاری سفارش"
+
+#~ msgid "Order Print"
+#~ msgstr "چاپ سفارش"
+
+#~ msgid "Recipient"
+#~ msgstr "گیرنده"
+
+#~ msgid "Customer Notes"
+#~ msgstr "یادداشتهای مشتری"
+
+#~ msgid ""
+#~ "Print order invoices & delivery notes for WooCommerce shop plugin. You "
+#~ "can add company/shop info as well as personal notes & policies to print "
+#~ "pages."
+#~ msgstr ""
+#~ "چاپ فاکتورها و برگه های رسید سفارش ها برای افزونه فروشگاهی ووکامرس. شما "
+#~ "می توانید اطلاعات شرکت / فروشگاه و همچنین یادداشت های شخصی و سیاست ها به "
+#~ "چاپ برگه ها بیافزایید."
+
+#~ msgid "Steve Clark, Triggvy Gunderson, David Decker"
+#~ msgstr ""
+#~ "Steve Clark, Triggvy Gunderson, David Decker برگردان پارسی خلیل دلاوران"
+
+#~ msgid ""
+#~ "This plugin enables you to add a Invoice or simple Delivery Note page for "
+#~ "printing for your orders in WooCommerce shop plugin. You can add your "
+#~ "company postal address, further add personal notes, refund or other "
+#~ "policies and a footer note/branding. This helps speed up your daily shop "
+#~ "and order management. In some countries (e.g. in the European Union) it "
+#~ "is also required to advice the customer with proper refund policies so "
+#~ "this little plugin might help you a bit with that too."
+#~ msgstr ""
+#~ "این افزونه شما را قادر به افزودن یک فاکتور و یا برگه رسید  برای چاپ "
+#~ "سفارشات در افزونه فروشگاهی ووکامرس می کند. شما قادر به افزودن آدرس پستی "
+#~ "شرکت ، قبض های رسید، بازپرداخت و یا سیاست های دیگر و نام تجاری شرکت در "
+#~ "بالا و پایین برگه می باشید. این افزونه به شما کمک می کند تا سریعتر کارهای "
+#~ "روزانه و مدیریت سفارش فروشگاه را انجام دهید  . همچنین توصیه ها و قوانین "
+#~ "بازپرداخت را به مشتریان اعلام کنید."
+
+#~ msgid ""
+#~ "Just look under <a href=\"%1$s\">WooCommerce > Orders</a> and there go to "
+#~ "a single order view. On the right side you will see the Order Print meta "
+#~ "box. Click one of the buttons and you get the invoice or delivery note "
+#~ "printing page. Yes, it is that easy :-)."
+#~ msgstr ""
+#~ " درسمت راست چاپ سفارش را می بینید. و با کلیک بر یکی از دکمه های زیر می "
+#~ "توانید فاکتور یا برگه رسید را چاپ کنید. مشخصات سفارش وجود دارد<a "
+#~ "href=\"%1$s\">WooCommerce > Orders</a> در پایین"
+
+#~ msgid "Phone"
+#~ msgstr "تلفن"

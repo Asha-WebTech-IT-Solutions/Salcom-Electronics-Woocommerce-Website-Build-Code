@@ -1,0 +1,1190 @@
+# Translation of Plugins - PDF Invoices &amp; Packing Slips for WooCommerce - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - PDF Invoices &amp; Packing Slips for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-10-07 16:25:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - PDF Invoices &amp; Packing Slips for WooCommerce - Stable (latest release)\n"
+
+#: includes/Documents/PackingSlip.php:65
+msgid "Packing Slip Date:"
+msgstr "Packing Slip Date:"
+
+#: includes/Documents/PackingSlip.php:53
+msgid "Packing Slip Number:"
+msgstr "Packing Slip Number:"
+
+#. translators: %s: document name
+#: includes/Documents/OrderDocument.php:880
+msgid "%s Date:"
+msgstr "%s Date:"
+
+#. translators: %s: document name
+#: includes/Documents/OrderDocument.php:872
+msgid "%s Number:"
+msgstr "%s Number:"
+
+#: includes/Settings/SettingsDebug.php:855
+msgid "Log to order notes"
+msgstr "Log to order notes"
+
+#. translators: directory path
+#: views/advanced-status.php:365
+msgid "If the temporary folders were not automatically created by the plugin, verify that all the font files (from %s) are copied to the fonts folder. Normally, this is fully automated, but if your server has strict security settings, this automated copying may have been prohibited. In that case, you also need to make sure these folders get synchronized on plugin updates!"
+msgstr "If the temporary folders were not automatically created by the plugin, verify that all the font files (from %s) are copied to the fonts folder. Normally, this is fully automated, but if your server has strict security settings, this automated copying may have been prohibited. In that case, you also need to make sure these folders get synchronised on plugin updates!"
+
+#. translators: 1,2. directory paths, 3. UPLOADS, 4. wpo_wcpdf_tmp_path, 5.
+#. attachments, 6. dompdf, 7. fonts
+#: views/advanced-status.php:349
+msgid "The central temp folder is %1$s. By default, this folder is created in the WordPress uploads folder (%2$s), which can be defined by setting %3$s in wp-config.php. Alternatively, you can control the specific folder for PDF invoices by using the %4$s filter. Make sure this folder is writable and that the subfolders %5$s, %6$s and %7$s are present (these will be created by the plugin if the central temp folder is writable)."
+msgstr "The central temp folder is %1$s. By default, this folder is created in the WordPress uploads folder (%2$s), which can be defined by setting %3$s in wp-config.php. Alternatively, you can control the specific folder for PDF invoices by using the %4$s filter. Make sure this folder is writable and that the subfolders %5$s, %6$s and %7$s are present (these will be created by the plugin if the central temp folder is writable)."
+
+#: views/advanced-status.php:318
+msgid "Write Permissions"
+msgstr "Write Permissions"
+
+#: views/advanced-status.php:305
+msgid "DOMPDF fonts folder (needs to be writable for custom/remote fonts)"
+msgstr "DOMPDF fonts folder (needs to be writable for custom/remote fonts)"
+
+#: views/advanced-status.php:299
+msgid "Temporary DOMPDF folder"
+msgstr "Temporary DOMPDF folder"
+
+#: views/advanced-status.php:293
+msgid "Temporary attachments folder"
+msgstr "Temporary attachments folder"
+
+#: views/advanced-status.php:287
+msgid "Central temporary plugin folder"
+msgstr "Central temporary plugin folder"
+
+#: views/advanced-status.php:282
+msgid "Not writable"
+msgstr "Not writable"
+
+#: views/advanced-status.php:281
+msgid "Writable"
+msgstr "Writable"
+
+#: views/advanced-status.php:139
+msgid "Present"
+msgstr "Present"
+
+#: views/advanced-status.php:138
+msgid "Required"
+msgstr "Required"
+
+#: views/advanced-status.php:132
+msgid "System Configuration"
+msgstr "System Configuration"
+
+#: views/advanced-status.php:80
+msgid "allow_url_fopen disabled"
+msgstr "allow_url_fopen disabled"
+
+#: views/advanced-status.php:77
+msgid "Allow remote stylesheets and images"
+msgstr "Allow remote style sheets and images"
+
+#. translators: <a> tags
+#: views/advanced-status.php:72
+msgid "Recommended: 128MB (more for plugin-heavy setups<br/>See: %1$sIncreasing the WordPress Memory Limit%2$s"
+msgstr "Recommended: 128MB (more for plugin-heavy setups<br/>See: %1$sIncreasing the WordPress Memory Limit%2$s"
+
+#: views/advanced-status.php:68
+msgid "Check PHP disable_functions"
+msgstr "Check PHP disable_functions"
+
+#: views/advanced-status.php:65
+msgid "Required to detect custom templates and to clear the temp folder periodically"
+msgstr "Required to detect custom templates and to clear the temp folder periodically"
+
+#: views/advanced-status.php:59
+msgid "Better with transparent PNG images"
+msgstr "Better with transparent PNG images"
+
+#: views/advanced-status.php:56 views/advanced-status.php:62
+msgid "Recommended for better performances"
+msgstr "Recommended for better performance"
+
+#: views/advanced-status.php:53
+msgid "For better performances"
+msgstr "For better performance"
+
+#: views/advanced-status.php:50
+msgid "Recommended to compress PDF documents"
+msgstr "Recommended to compress PDF documents"
+
+#: views/advanced-status.php:47
+msgid "To compress PDF documents"
+msgstr "To compress PDF documents"
+
+#: views/advanced-status.php:32
+msgid "Required if you have images in your documents"
+msgstr "Required if you have images in your documents"
+
+#: views/advanced-status.php:26
+msgid "Recommended, will use fallback functions"
+msgstr "Recommended, will use fallback functions"
+
+#: includes/Admin.php:1231
+msgid "Document is empty."
+msgstr "Document is empty."
+
+#: includes/Admin.php:1217
+msgid "Document does not exist."
+msgstr "Document does not exist."
+
+#: includes/Admin.php:1161
+msgid "An error occurred while deleting the document!"
+msgstr "An error occurred while deleting the document!"
+
+#: includes/Admin.php:1160
+msgid "Document deleted!"
+msgstr "Document deleted!"
+
+#: includes/Admin.php:1157
+msgid "An error occurred while regenerating the document!"
+msgstr "An error occurred while regenerating the document!"
+
+#: includes/Admin.php:1156
+msgid "Document regenerated!"
+msgstr "Document regenerated!"
+
+#: includes/Admin.php:1153
+msgid "An error occurred while saving the document data!"
+msgstr "An error occurred while saving the document data!"
+
+#: includes/Admin.php:1152
+msgid "Document data saved!"
+msgstr "Document data saved!"
+
+#: includes/Admin.php:1128
+msgid "No permissions!"
+msgstr "No permissions!"
+
+#: includes/Admin.php:1122
+msgid "Incomplete request!"
+msgstr "Incomplete request!"
+
+#: includes/Admin.php:1116
+msgid "Bad action!"
+msgstr "Bad action!"
+
+#: includes/Admin.php:1110
+msgid "Nonce expired!"
+msgstr "Nonce expired!"
+
+#: includes/Admin.php:940
+msgid "Cancel"
+msgstr "Cancel"
+
+#: includes/Admin.php:939
+msgid "Save changes"
+msgstr "Save changes"
+
+#. translators: 1. document title, 2. creation trigger
+#: includes/Main.php:1274
+msgid "PDF %1$s created via %2$s."
+msgstr "PDF %1$s created via %2$s."
+
+#: includes/Main.php:1415
+msgid "email attachment"
+msgstr "email attachment"
+
+#: includes/Main.php:1414
+msgid "my account"
+msgstr "my account"
+
+#: includes/Main.php:1412
+msgid "single order action"
+msgstr "single order action"
+
+#: includes/Main.php:1413
+msgid "bulk order action"
+msgstr "bulk order action"
+
+#: includes/Admin.php:523
+msgid "Choose an email to send&hellip;"
+msgstr "Choose an email to send&hellip;"
+
+#. translators: document title
+#: includes/Admin.php:880
+msgid "Set %s number & date"
+msgstr "Set %s number and date"
+
+#: includes/Admin.php:897
+msgid "unformatted!"
+msgstr "unformatted!"
+
+#. translators: <a> tags
+#: woocommerce-pdf-invoices-packingslips.php:245
+msgid "We strongly recommend to %1$supdate your PHP version%2$s."
+msgstr "We strongly recommend you %1$supdate your PHP version%2$s."
+
+#. translators: document title
+#: includes/Main.php:1597
+msgid "Order %s Saved"
+msgstr "Order %s Saved"
+
+#: includes/Main.php:852
+msgid "Please check your directories write permissions or contact your hosting service provider."
+msgstr "Please check your directories write permissions or contact your hosting service provider."
+
+#. translators: 1. plugin name, 2. directory path
+#: includes/Main.php:851
+msgid "The %1$s directory %2$s couldn't be created or is not writable!"
+msgstr "The %1$s directory %2$s couldn't be created or is not writable!"
+
+#: includes/Admin.php:506
+msgid "PDF document data"
+msgstr "PDF document data"
+
+#: woocommerce-pdf-invoices-packingslips.php:338
+msgid "To protect them, you must click the button below."
+msgstr "To protect them, you must click the button below."
+
+#: woocommerce-pdf-invoices-packingslips.php:339
+msgid "Generate random temporary folder name"
+msgstr "Generate random temporary folder name"
+
+#. translators: zero number
+#: includes/Documents/Invoice.php:491
+msgid "Disable document when the order total is %s"
+msgstr "Disable document when the order total is %s"
+
+#: includes/Documents/Invoice.php:295 includes/Documents/PackingSlip.php:166
+msgid "Display customer notes"
+msgstr "Display customer notes"
+
+#: includes/Settings/SettingsDebug.php:207
+msgid "Temporary folder moved to"
+msgstr "Temporary folder moved to"
+
+#: includes/Admin.php:734
+msgid "Notes (printed in the invoice):"
+msgstr "Notes (printed in the invoice):"
+
+#. translators: directory path
+#: woocommerce-pdf-invoices-packingslips.php:337
+msgid "The PDF files in %s are not currently protected due to your site running on <strong>NGINX</strong>."
+msgstr "The PDF files in %s are not currently protected due to your site running on <strong>NGINX</strong>."
+
+#: includes/Documents/OrderDocument.php:917
+msgid "Notes:"
+msgstr "Notes:"
+
+#: includes/Documents/PackingSlip.php:135
+msgid "Only when different from shipping address"
+msgstr "Only when different from shipping address"
+
+#: includes/Documents/Invoice.php:264 views/setup-wizard/display-options.php:21
+msgid "Only when different from billing address"
+msgstr "Only when different from billing address"
+
+#: includes/Settings/SettingsDebug.php:837
+msgid "You can also add <code>&output=html</code> to the URL to apply this on a per-order basis."
+msgstr "You can also add <code>&output=html</code> to the URL to apply this on a per-order basis."
+
+#: includes/Settings/SettingsDocuments.php:64 views/advanced-numbers.php:13
+msgid "untitled"
+msgstr "untitled"
+
+#: includes/Settings/SettingsGeneral.php:159
+msgid "Enter the total height of the logo in mm, cm or in and use a dot for decimals.<br/>For example: 1.15in or 40mm"
+msgstr "Enter the total height of the logo in mm, cm or in and use a dot for decimals.<br/>For example: 1.15in or 40mm"
+
+#: includes/Settings/SettingsGeneral.php:151
+msgid "Logo height"
+msgstr "Logo height"
+
+#: includes/Assets.php:89
+msgid "Are you sure you want to regenerate this document? This will make the document reflect the most current settings (such as footer text, document name, etc.) rather than using historical settings."
+msgstr "Are you sure you want to regenerate this document? This will make the document reflect the most current settings (such as footer text, document name, etc.) rather than using historical settings."
+
+#. translators: 1. credit note title, 2. refund id
+#: includes/Documents/OrderDocument.php:471
+msgid "%s was regenerated"
+msgstr "%s was regenerated"
+
+#. translators: 1. credit note title, 2. refund id
+#: includes/Documents/OrderDocument.php:471
+msgid "%1$s (refund #%2$s) was regenerated."
+msgstr "%1$s (refund #%2$s) was regenerated."
+
+#: includes/Documents/Invoice.php:355
+msgid "More information"
+msgstr "More information"
+
+#: includes/Documents/Invoice.php:354
+msgid "Using the Order Number as invoice number is not recommended as this may lead to gaps in the invoice number sequence (even when order numbers are sequential)."
+msgstr "Using the order number as the invoice number is not recommended as this may lead to gaps in the invoice number sequence (even when order numbers are sequential)."
+
+#: includes/Documents/Invoice.php:353
+msgid "Warning!"
+msgstr "Warning!"
+
+#: includes/Documents/Invoice.php:349 views/setup-wizard/display-options.php:82
+msgid "Order Number"
+msgstr "Order Number"
+
+#: includes/Documents/Invoice.php:317
+#: includes/Documents/OrderDocumentMethods.php:1307
+#: views/setup-wizard/display-options.php:61
+msgid "Order Date"
+msgstr "Order Date"
+
+#: includes/Documents/Invoice.php:263 includes/Documents/Invoice.php:315
+#: includes/Documents/Invoice.php:347 includes/Documents/PackingSlip.php:134
+#: views/advanced-status.php:169 views/advanced-status.php:173
+#: views/advanced-status.php:204 views/advanced-status.php:205
+#: views/setup-wizard/display-options.php:20
+#: views/setup-wizard/display-options.php:59
+#: views/setup-wizard/display-options.php:80
+msgid "No"
+msgstr "No"
+
+#: views/setup-wizard/show-action-buttons.php:18
+msgid "Show action buttons"
+msgstr "Show action buttons"
+
+#: views/setup-wizard/show-action-buttons.php:5
+msgid "(You can always change this setting later via the Screen Options menu)"
+msgstr "(You can always change this setting later via the Screen Options menu)"
+
+#: views/setup-wizard/show-action-buttons.php:4
+msgid "Would you like to display the action buttons in your WooCommerce order list? The action buttons allow you to manually create a PDF."
+msgstr "Would you like to display the action buttons in your WooCommerce order list? The action buttons allow you to manually create a PDF."
+
+#: includes/Documents/Invoice.php:250
+msgid "Select one or more statuses"
+msgstr "Select one or more statuses"
+
+#: includes/Documents/Invoice.php:241
+msgid "Disable for:"
+msgstr "Disable for:"
+
+#: includes/SetupWizard.php:78 views/setup-wizard/show-action-buttons.php:3
+msgid "Action buttons"
+msgstr "Action buttons"
+
+#: includes/Settings/SettingsGeneral.php:106
+msgid "<strong>Note:</strong> invoice numbers and dates are not affected by this setting and will still be generated."
+msgstr "<strong>Note:</strong> invoice numbers and dates are not affected by this setting and will still be generated."
+
+#: includes/Settings/SettingsGeneral.php:106
+msgid "With test mode enabled, any document generated will always use the latest settings, rather than using the settings as configured at the time the document was first created."
+msgstr "With test mode enabled, any document generated will always use the latest settings, rather than using the settings as configured at the time the document was first created."
+
+#: includes/Settings/SettingsGeneral.php:100
+msgid "Test mode"
+msgstr "Test mode"
+
+#: includes/Admin.php:1262
+msgid "DEBUG output enabled"
+msgstr "DEBUG output enabled"
+
+#: includes/Documents/Invoice.php:543
+msgid "<strong>Caution:</strong> enabling this will also mean that if you change your company name or address in the future, previously generated documents will also be affected."
+msgstr "<strong>Caution:</strong> enabling this will also mean that if you change your company name or address in the future, previously generated documents will also be affected."
+
+#: includes/Documents/Invoice.php:541
+msgid "When enabled, the document will always reflect the most current settings (such as footer text, document name, etc.) rather than using historical settings."
+msgstr "When enabled, the document will always reflect the most current settings (such as footer text, document name, etc.) rather than using historical settings."
+
+#: includes/Documents/Invoice.php:535
+msgid "Always use most current settings"
+msgstr "Always use most current settings"
+
+#: wpo-ips-functions.php:367
+msgid "Error creating PDF, please contact the site owner."
+msgstr "Error creating PDF, please contact the site owner."
+
+#: includes/Assets.php:88
+msgid "Are you sure you want to delete this document? This cannot be undone."
+msgstr "Are you sure you want to delete this document? This cannot be undone."
+
+#: includes/Admin.php:167
+msgid "I am the wizard"
+msgstr "I am the wizard"
+
+#: includes/Admin.php:167 views/advanced-tools.php:150
+#: views/advanced-tools.php:152
+msgid "Run the Setup Wizard"
+msgstr "Run the Setup Wizard"
+
+#: includes/Admin.php:166
+msgid "Jumpstart the plugin by following our wizard!"
+msgstr "Jump start the plugin by following our wizard!"
+
+#: includes/Admin.php:323 includes/Documents/Invoice.php:316
+#: includes/Documents/OrderDocumentMethods.php:1306 includes/Main.php:1238
+#: views/setup-wizard/display-options.php:60
+msgid "Invoice Date"
+msgstr "Invoice date"
+
+#: includes/Settings/SettingsDebug.php:824
+msgid "Automatically clean up PDF files stored in the temporary folder (used for email attachments)"
+msgstr "Automatically clean up PDF files stored in the temporary folder (used for email attachments)"
+
+#. translators: number of days
+#: includes/Settings/SettingsDebug.php:820
+msgid "every %s days"
+msgstr "every %s days"
+
+#: includes/Settings/SettingsDebug.php:813
+msgid "Enable automatic cleanup"
+msgstr "Enable automatic cleanup"
+
+#: views/setup-wizard/shop-name.php:4
+msgid "Lets quickly setup your invoice. Please enter the name and address of your shop in the fields on the right."
+msgstr "Let's quickly set up your invoice. Please enter the name and address of your shop in the fields on the right."
+
+#: views/setup-wizard/shop-name.php:3
+msgid "Enter your shop name"
+msgstr "Enter your shop name"
+
+#: views/setup-wizard/paper-format.php:4
+msgid "Select the paper format for your invoice."
+msgstr "Select the paper format for your invoice."
+
+#: views/setup-wizard/logo.php:4
+msgid "Set the header image that will display on your invoice."
+msgstr "Set the header image that will display on your invoice."
+
+#: views/setup-wizard/good-to-go.php:6
+msgid "Happy selling!"
+msgstr "Happy selling!"
+
+#: views/setup-wizard/good-to-go.php:5
+msgid "Invoices & Packing Slips"
+msgstr "Invoices & Packing Slips"
+
+#: views/setup-wizard/good-to-go.php:4
+msgid "If you have any questions please have a look at our documentation:"
+msgstr "If you have any questions please have a look at our documentation:"
+
+#: views/setup-wizard/good-to-go.php:3
+msgid "You are good to go!"
+msgstr "You are good to go!"
+
+#: views/setup-wizard/display-options.php:4
+msgid "Select some additional display options for your invoice."
+msgstr "Select some additional display options for your invoice."
+
+#: views/setup-wizard/attach-to.php:4
+msgid "Select to which emails you would like to attach your invoice."
+msgstr "Select which emails you would like to attach your invoice to."
+
+#: includes/SetupWizard.php:203
+msgid "Finish"
+msgstr "Finish"
+
+#: includes/SetupWizard.php:201
+msgid "Skip this step"
+msgstr "Skip this step"
+
+#: includes/SetupWizard.php:200
+msgid "Next"
+msgstr "Next"
+
+#: includes/SetupWizard.php:195
+msgid "Previous"
+msgstr "Previous"
+
+#: includes/SetupWizard.php:82
+msgid "Ready!"
+msgstr "Ready!"
+
+#: includes/SetupWizard.php:74 views/setup-wizard/paper-format.php:3
+msgid "Paper format"
+msgstr "Paper format"
+
+#: includes/SetupWizard.php:70 views/setup-wizard/display-options.php:3
+msgid "Display options"
+msgstr "Display options"
+
+#: includes/SetupWizard.php:66
+msgid "Attachments"
+msgstr "Attachments"
+
+#: includes/SetupWizard.php:62 views/setup-wizard/logo.php:3
+msgid "Your logo"
+msgstr "Your logo"
+
+#. translators: %s: email title
+#: includes/Admin.php:1062
+msgid "%s email notification manually sent."
+msgstr "%s email notification manually sent."
+
+#: languages/strings.php:9
+msgid "Send email"
+msgstr "Send email"
+
+#: includes/Admin.php:544
+msgid "Save order & send email"
+msgstr "Save order & send email"
+
+#: includes/Admin.php:472
+msgid "Send order email"
+msgstr "Send order email"
+
+#. translators: <a> tags
+#: views/attachment-settings-hint.php:11
+msgid "It looks like you haven't setup any email attachments yet, check the settings under <b>%1$sDocuments > Invoice%2$s</b>"
+msgstr "It looks like you haven't setup any email attachments yet, check the settings under <b>%1$sDocuments > Invoice%2$s</b>"
+
+#: includes/Admin.php:125
+msgid "Actually, I have a complaint..."
+msgstr "Actually, I have a complaint..."
+
+#: includes/Admin.php:124
+msgid "Already did!"
+msgstr "Already did!"
+
+#: includes/Admin.php:123
+msgid "Yes you deserve it!"
+msgstr "Yes you deserve it!"
+
+#: includes/Admin.php:121
+msgid "It would mean a lot to us if you would quickly give our plugin a 5-star rating. Help us spread the word and boost our motivation!"
+msgstr "It would mean a lot to us if you would quickly give our plugin a 5-star rating. Help us spread the word and boost our motivation!"
+
+#. translators: rounded count
+#: includes/Admin.php:120
+msgid "Wow, you have created more than %d invoices with our plugin!"
+msgstr "Wow, you have created more than %d invoices with our plugin!"
+
+#: includes/Settings/SettingsGeneral.php:130
+msgid "Font subsetting can reduce file size by only including the characters that are used in the PDF, but limits the ability to edit PDF files later. Recommended if you're using an Asian font."
+msgstr "Font subsetting can reduce file size by only including the characters that are used in the PDF, but limits the ability to edit PDF files later. Recommended if you're using an Asian font."
+
+#: includes/Settings/SettingsGeneral.php:124
+msgid "Enable font subsetting"
+msgstr "Enable font subsetting"
+
+#: includes/Settings/SettingsDebug.php:778
+msgid "Calculate document numbers (slow)"
+msgstr "Calculate document numbers (slow)"
+
+#. translators: 1. AUTO_INCREMENT, 2. one
+#: includes/Settings/SettingsDebug.php:786
+msgid "Document numbers (such as invoice numbers) are generated using %1$s by default. Use this setting if your database auto increments with more than %2$s."
+msgstr "Document numbers (such as invoice numbers) are generated using %1$s by default. Use this setting if your database auto increments with more than %2$s."
+
+#: includes/Main.php:1198
+msgid "Nothing to delete!"
+msgstr "Nothing to delete!"
+
+#. translators: file count
+#: includes/Main.php:1194
+msgid "Successfully deleted %d files!"
+msgstr "Successfully deleted %d files!"
+
+#: views/advanced-tools.php:49 views/advanced-tools.php:53
+msgid "Remove temporary files"
+msgstr "Remove temporary files"
+
+#. translators: 1,2. file count
+#: includes/Main.php:1190
+msgid "Unable to delete %1$d files! (deleted %2$d)"
+msgstr "Unable to delete %1$d files! (deleted %2$d)"
+
+#: includes/Admin.php:124 includes/Main.php:853
+#: views/attachment-settings-hint.php:12 views/extensions.php:121
+#: views/promo.php:34 woocommerce-pdf-invoices-packingslips.php:340
+#: woocommerce-pdf-invoices-packingslips.php:399
+#: woocommerce-pdf-invoices-packingslips.php:437
+#: woocommerce-pdf-invoices-packingslips.php:481
+#: woocommerce-pdf-invoices-packingslips.php:512
+#: woocommerce-pdf-invoices-packingslips.php:601
+msgid "Hide this message"
+msgstr "Hide this message"
+
+#: views/extensions.php:74
+msgid "Get WooCommerce Smart Reminder Emails"
+msgstr "Get WooCommerce Smart Reminder Emails"
+
+#: views/extensions.php:72
+msgid "Integrates seamlessly with the PDF Invoices & Packing Slips plugin"
+msgstr "Integrates seamlessly with the PDF Invoices & Packing Slips plugin"
+
+#: views/extensions.php:71
+msgid "<b>Super versatile!</b> Can be used for any kind of reminder email (review reminders, repeat purchases)"
+msgstr "<b>Super versatile!</b> Can be used for any kind of reminder email (review reminders, repeat purchases)"
+
+#: views/extensions.php:70
+msgid "Fully <b>WPML Compatible</b> – emails will be automatically sent in the order language."
+msgstr "Fully <b>WPML Compatible</b> – emails will be automatically sent in the order language."
+
+#: views/extensions.php:69
+msgid "Configure the exact requirements for sending an email (time after order, order status, payment method)"
+msgstr "Configure the exact requirements for sending an email (time after order, order status, payment method)"
+
+#: views/extensions.php:68
+msgid "<b>Rich text editor</b> for the email text, including placeholders for data from the order (name, order total, etc)"
+msgstr "<b>Rich text editor</b> for the email text, including placeholders for data from the order (name, order total, etc)"
+
+#: views/extensions.php:67
+msgid "<b>Completely automatic</b> scheduled emails"
+msgstr "<b>Completely automatic</b> scheduled emails"
+
+#: views/extensions.php:65
+msgid "WooCommerce Smart Reminder emails"
+msgstr "WooCommerce Smart Reminder emails"
+
+#: views/extensions.php:63
+msgid "Automatically send payment reminders to your customers"
+msgstr "Automatically send payment reminders to your customers"
+
+#: views/extensions.php:29 views/extensions.php:53
+msgid "Upload automatically to dropbox"
+msgstr "Upload automatically to Dropbox"
+
+#: views/extensions.php:15
+msgid "Professional features:"
+msgstr "Professional features:"
+
+#: views/extensions.php:12
+msgid "Premium PDF Invoice bundle: Everything you need for a perfect invoicing system"
+msgstr "Premium PDF Invoice bundle: Everything you need for a perfect invoicing system"
+
+#. translators: link
+#: includes/Documents/Invoice.php:559
+msgid "Configure it <a href=\"%s\">here</a>."
+msgstr "Configure it <a href=\"%s\">here</a>."
+
+#: includes/Documents/Invoice.php:556
+msgid "Invoice numbers are created by a third-party extension."
+msgstr "Invoice numbers are created by a third-party extension."
+
+#: includes/Documents/Invoice.php:414
+msgid "Reset invoice number yearly"
+msgstr "Reset invoice number annually"
+
+#: includes/Documents/Invoice.php:374
+msgid "Number format"
+msgstr "Number format"
+
+#: includes/Documents/Invoice.php:368
+msgid "This is the number that will be used for the next document. By default, numbering starts from 1 and increases for every new document. Note that if you override this and set it lower than the current/highest number, this could create duplicate numbers!"
+msgstr "This is the number that will be used for the next document. By default, numbering starts from 1 and increases for every new document. Note that if you override this and set it lower than the current/highest number, this could create duplicate numbers!"
+
+#: includes/Documents/Invoice.php:340
+msgid "Display invoice number"
+msgstr "Display invoice number"
+
+#: includes/Documents/Invoice.php:227 includes/Documents/Invoice.php:594
+#: includes/Documents/PackingSlip.php:191
+msgid "Attach to:"
+msgstr "Attach to:"
+
+#: includes/Documents/Invoice.php:216 includes/Documents/Invoice.php:583
+#: includes/Documents/PackingSlip.php:116
+msgid "Enable"
+msgstr "Enable"
+
+#: includes/Documents/OrderDocument.php:1547
+msgid "Manual email"
+msgstr "Manual email"
+
+#: includes/Documents/OrderDocument.php:1544
+msgid "Admin email"
+msgstr "Admin email"
+
+#: includes/Documents/OrderDocumentMethods.php:956
+msgid "(includes %s)"
+msgstr "(includes %s)"
+
+#: includes/Settings.php:123
+msgid "Support Forum"
+msgstr "Support Forum"
+
+#: includes/Settings.php:122
+msgid "Documentation"
+msgstr "Documentation"
+
+#: includes/Settings/SettingsGeneral.php:118
+msgid "Enable this if your currency symbol is not displaying properly"
+msgstr "Enable this if your currency symbol is not displaying properly"
+
+#: includes/Settings/SettingsGeneral.php:112
+msgid "Extended currency symbol support"
+msgstr "Extended currency symbol support"
+
+#: includes/Settings.php:178
+msgid "Documents"
+msgstr "Documents"
+
+#: includes/Settings/SettingsDebug.php:802
+msgid "<b>Caution!</b> This setting may reveal errors (from other plugins) in other places on your site too, therefore this is not recommended to leave it enabled on live sites."
+msgstr "<b>Caution!</b> This setting may reveal errors (from other plugins) in other places on your site too, therefore it is not recommended to leave it enabled on live sites."
+
+#: includes/Settings/SettingsDebug.php:216
+msgid "Fonts reinstalled!"
+msgstr "Fonts reinstalled!"
+
+#: views/advanced-tools.php:25
+msgid "Reinstall fonts"
+msgstr "Reinstall fonts"
+
+#: includes/Settings/SettingsCallbacks.php:523
+msgid "Save"
+msgstr "Save"
+
+#. translators: document type
+#: includes/Main.php:534
+msgid "Document of type '%s' for the selected order(s) could not be generated"
+msgstr "Document of type '%s' for the selected order(s) could not be generated"
+
+#: includes/Main.php:383
+msgid "You haven't selected any orders"
+msgstr "You haven't selected any orders"
+
+#: includes/Documents/OrderDocumentMethods.php:985
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: languages/strings.php:10
+msgid "Description"
+msgstr "Description"
+
+#: includes/Documents/OrderDocumentMethods.php:1041
+msgid "Discount"
+msgstr "Discount"
+
+#: wpo-ips-functions.php:983
+msgid "Price"
+msgstr "Price"
+
+#: wpo-ips-functions.php:981
+msgid "Product"
+msgstr "Product"
+
+#: wpo-ips-functions.php:982
+msgid "Quantity"
+msgstr "Quantity"
+
+#: languages/strings.php:11
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/Documents/OrderDocumentMethods.php:96
+#: includes/Documents/OrderDocumentMethods.php:206
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/Documents/OrderDocumentMethods.php:1111 includes/Settings.php:438
+#: ubl/Settings/TaxesSettings.php:170
+msgid "Total"
+msgstr "Total"
+
+#: includes/Documents/Invoice.php:24 includes/Documents/Invoice.php:56
+#: views/settings-page.php:127
+msgid "Invoice"
+msgstr "Invoice"
+
+#: includes/Admin.php:322 includes/Admin.php:1342 includes/Assets.php:229
+#: includes/Documents/Invoice.php:348 includes/Main.php:1237
+#: views/setup-wizard/display-options.php:81
+msgid "Invoice Number"
+msgstr "Invoice Number"
+
+#: includes/Documents/Invoice.php:400
+msgid "Padding"
+msgstr "Padding"
+
+#: includes/Settings/SettingsGeneral.php:144 views/setup-wizard/logo.php:15
+msgid "Remove image"
+msgstr "Remove image"
+
+#: views/extensions.php:26 views/extensions.php:107
+msgid "Completely customize the invoice contents (prices, taxes, thumbnails) to your needs with a drag & drop customizer"
+msgstr "Completely customise the invoice contents (prices, taxes, thumbnails) to your needs with a drag & drop customer"
+
+#: views/extensions.php:21 views/extensions.php:51
+msgid "<b>Customize</b> the <b>shipping & billing address</b> format to include additional custom fields, font sizes etc. without the need to create a custom template."
+msgstr "<b>Customise</b> the <b>shipping & billing address</b> format to include additional custom fields, font sizes etc. without the need to create a custom template."
+
+#: views/extensions.php:20 views/extensions.php:50
+msgid "Use <b>separate numbering systems</b> and/or format for proforma invoices and credit notes or utilize the main invoice numbering system"
+msgstr "Use <b>separate numbering systems</b> and/or format for proforma invoices and credit notes or utilise the main invoice numbering system"
+
+#: includes/Documents/OrderDocumentMethods.php:1108
+msgid "Total ex. VAT"
+msgstr "Total ex. VAT"
+
+#: languages/strings.php:4
+msgid "Tax rate"
+msgstr "Tax rate"
+
+#: languages/strings.php:3
+msgid "VAT"
+msgstr "VAT"
+
+#: includes/Documents/OrderDocumentMethods.php:1010
+msgid "Shipping"
+msgstr "Shipping"
+
+#: languages/strings.php:8
+msgid "Shipping method"
+msgstr "Shipping method"
+
+#: languages/strings.php:7
+msgid "Payment method"
+msgstr "Payment method"
+
+#: includes/Documents/OrderDocument.php:908
+msgid "Shipping Method:"
+msgstr "Shipping Method:"
+
+#: includes/Documents/OrderDocument.php:893
+msgid "Shipping Address:"
+msgstr "Shipping Address:"
+
+#: includes/Documents/OrderDocument.php:914
+msgid "Weight:"
+msgstr "Weight:"
+
+#: includes/Documents/OrderDocument.php:911
+msgid "SKU:"
+msgstr "SKU:"
+
+#: includes/Documents/OrderDocument.php:902
+msgid "Payment Method:"
+msgstr "Payment Method:"
+
+#: includes/Documents/OrderDocument.php:899
+msgid "Order Date:"
+msgstr "Order Date:"
+
+#: includes/Documents/OrderDocument.php:896
+msgid "Order Number:"
+msgstr "Order Number:"
+
+#: includes/Documents/Invoice.php:68
+#: includes/Documents/OrderDocumentMethods.php:1325
+msgid "Invoice Number:"
+msgstr "Invoice Number:"
+
+#: includes/Documents/Invoice.php:92
+msgid "Ship To:"
+msgstr "Ship To:"
+
+#: includes/Documents/OrderDocument.php:890
+msgid "Billing Address:"
+msgstr "Billing Address:"
+
+#. translators: email link
+#: views/extensions.php:112
+msgid "For custom templates, contact us at %s."
+msgstr "For custom templates, contact us at %s."
+
+#. translators: Premium Templates link
+#: views/extensions.php:110
+msgid "Check out the Premium PDF Invoice & Packing Slips templates at %s."
+msgstr "Check out the Premium PDF Invoice & Packing Slips templates at %s."
+
+#: views/extensions.php:27 views/extensions.php:108
+msgid "Two extra stylish premade templates (Modern & Business)"
+msgstr "Two extra stylish pre-made templates (Modern & Business)"
+
+#: views/extensions.php:24 views/extensions.php:104
+msgid "Advanced, customizable templates"
+msgstr "Advanced, customisable templates"
+
+#: views/extensions.php:90
+msgid "WooCommerce Automatic Order Printing"
+msgstr "WooCommerce Automatic Order Printing"
+
+#: views/extensions.php:89
+msgid "Check out the WooCommerce Automatic Order Printing extension from our partners at Simba Hosting"
+msgstr "Check out the WooCommerce Automatic Order Printing extension from our partners at Simba Hosting"
+
+#: views/extensions.php:83
+msgid "Automatically send new orders or packing slips to your printer, as soon as the customer orders!"
+msgstr "Automatically send new orders or packing slips to your printer, as soon as the customer orders!"
+
+#: views/extensions.php:31
+msgid "This extension conveniently uploads all the invoices (and other pdf documents from the professional extension) that are emailed to your customers to Dropbox. The best way to keep your invoice administration up to date!"
+msgstr "This extension conveniently uploads all the invoices (and other pdf documents from the professional extension) that are emailed to your customers to Dropbox. The best way to keep your invoice administration up to date!"
+
+#: views/extensions.php:22 views/extensions.php:52
+msgid "Use the plugin in multilingual <b>WPML</b> setups"
+msgstr "Use the plugin in multilingual <b>WPML</b> setups"
+
+#: views/extensions.php:19 views/extensions.php:49
+msgid "Attach <b>up to 3 static files</b> (for example a terms & conditions document) to the WooCommerce emails of your choice."
+msgstr "Attach <b>up to 3 static files</b> (for example a terms & conditions document) to the WooCommerce emails of your choice."
+
+#: views/extensions.php:18 views/extensions.php:48
+msgid "Send out a separate <b>notification email</b> with (or without) PDF invoices/packing slips, for example to a drop-shipper or a supplier."
+msgstr "Send out a separate <b>notification email</b> with (or without) PDF invoices/packing slips, for example to a drop-shipper or a supplier."
+
+#: views/extensions.php:17 views/extensions.php:47
+msgid "Email/print/download <b>PDF Credit Notes & Proforma invoices</b>"
+msgstr "Email/print/download <b>PDF Credit Notes & Proforma invoices</b>"
+
+#: views/extensions.php:43
+msgid "Go Pro: Proforma invoices, credit notes (=refunds) & more!"
+msgstr "Go Pro: Proforma invoices, credit notes (=refunds) & more!"
+
+#: views/extensions.php:7
+msgid "click items to read more"
+msgstr "click items to read more"
+
+#: views/extensions.php:6
+msgid "Check out these premium extensions!"
+msgstr "Check out these premium extensions!"
+
+#: includes/Admin.php:903
+msgid "m"
+msgstr "m"
+
+#: includes/Admin.php:903
+msgid "h"
+msgstr "h"
+
+#: includes/Documents/Invoice.php:80
+msgid "Invoice Date:"
+msgstr "Invoice Date:"
+
+#: includes/Admin.php:482
+msgid "Create PDF"
+msgstr "Create PDF"
+
+#: includes/Settings/SettingsCallbacks.php:46
+msgid "These are used for the (optional) footer columns in the <em>Modern (Premium)</em> template, but can also be used for other elements in your custom template"
+msgstr "These are used for the (optional) footer columns in the <em>Modern (Premium)</em> template, but can also be used for other elements in your custom template"
+
+#: includes/Settings/SettingsCallbacks.php:37
+msgid "<b>Warning!</b> The settings below are meant for debugging/development only. Do not use them on a live website!"
+msgstr "<b>Warning!</b> The settings below are meant for debugging/development only. Do not use them on a live website!"
+
+#: includes/Settings/SettingsCallbacks.php:467
+msgid "Image resolution"
+msgstr "Image resolution"
+
+#: includes/Settings/SettingsDebug.php:836
+msgid "Send the template output as HTML to the browser instead of creating a PDF."
+msgstr "Send the template output as HTML to the browser instead of creating a PDF."
+
+#: includes/Settings/SettingsDebug.php:830
+msgid "Output to HTML"
+msgstr "Output to HTML"
+
+#: includes/Settings/SettingsDebug.php:795
+msgid "Enable debug output"
+msgstr "Enable debug output"
+
+#: includes/Settings/SettingsGeneral.php:277
+msgid "This is footer column 3 in the <i>Modern (Premium)</i> template"
+msgstr "This is footer column 3 in the <i>Modern (Premium)</i> template"
+
+#: includes/Settings/SettingsGeneral.php:269
+msgid "Extra field 3"
+msgstr "Extra field 3"
+
+#: includes/Settings/SettingsGeneral.php:262
+msgid "This is footer column 2 in the <i>Modern (Premium)</i> template"
+msgstr "This is footer column 2 in the <i>Modern (Premium)</i> template"
+
+#: includes/Settings/SettingsGeneral.php:254
+msgid "Extra field 2"
+msgstr "Extra field 2"
+
+#: includes/Settings/SettingsGeneral.php:247
+msgid "This is footer column 1 in the <i>Modern (Premium)</i> template"
+msgstr "This is footer column 1 in the <i>Modern (Premium)</i> template"
+
+#: includes/Settings/SettingsGeneral.php:239
+msgid "Extra field 1"
+msgstr "Extra field 1"
+
+#: includes/Settings/SettingsGeneral.php:233
+msgid "Extra template fields"
+msgstr "Extra template fields"
+
+#: includes/Documents/PackingSlip.php:127
+msgid "Display billing address"
+msgstr "Display billing address"
+
+#: includes/Documents/PackingSlip.php:24 includes/Documents/PackingSlip.php:41
+msgid "Packing Slip"
+msgstr "Packing Slip"
+
+#: includes/Documents/Invoice.php:391
+msgid "Suffix"
+msgstr "Suffix"
+
+#: includes/Documents/Invoice.php:382
+msgid "Prefix"
+msgstr "Prefix"
+
+#: includes/Documents/Invoice.php:362
+msgid "Next invoice number (without prefix/suffix etc.)"
+msgstr "Next invoice number (without prefix/suffix etc.)"
+
+#: includes/Documents/Invoice.php:308
+msgid "Display invoice date"
+msgstr "Display invoice date"
+
+#: includes/Documents/Invoice.php:284 includes/Documents/PackingSlip.php:155
+msgid "Display phone number"
+msgstr "Display phone number"
+
+#: includes/Documents/Invoice.php:273 includes/Documents/PackingSlip.php:144
+msgid "Display email address"
+msgstr "Display email address"
+
+#: includes/Documents/Invoice.php:256
+msgid "Display shipping address"
+msgstr "Display shipping address"
+
+#: includes/Settings/SettingsGeneral.php:218
+msgid "Footer: terms & conditions, policies, etc."
+msgstr "Footer: terms & conditions, policies, etc."
+
+#: includes/Settings/SettingsGeneral.php:203
+msgid "Shop Address"
+msgstr "Shop Address"
+
+#: includes/Settings/SettingsGeneral.php:165 includes/SetupWizard.php:58
+msgid "Shop Name"
+msgstr "Shop Name"
+
+#: includes/Settings/SettingsGeneral.php:143 views/setup-wizard/logo.php:14
+msgid "Set image"
+msgstr "Set image"
+
+#: includes/Settings/SettingsGeneral.php:142 views/setup-wizard/logo.php:13
+msgid "Select or upload your invoice header/logo"
+msgstr "Select or upload your invoice header/logo"
+
+#: includes/Settings/SettingsGeneral.php:136
+msgid "Shop header/logo"
+msgstr "Shop header/logo"
+
+#: includes/Settings/SettingsDebug.php:801
+msgid "Enable this option to output plugin errors if you're getting a blank page or other PDF generation issues."
+msgstr "Enable this option to output plugin errors if you're getting a blank page or other PDF generation issues."
+
+#: includes/Documents/OrderDocument.php:920
+msgid "Customer Notes:"
+msgstr "Customer notes:"
+
+#: includes/Main.php:479 includes/Settings.php:231 includes/Settings.php:379
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."
+
+#: includes/Assets.php:121 includes/Settings.php:109
+#: includes/Settings/SettingsDebug.php:929
+msgid "Settings"
+msgstr "Settings"
+
+#: includes/Settings.php:174 includes/Settings/SettingsDebug.php:669
+msgid "General"
+msgstr "General"
+
+#: includes/Settings/SettingsDebug.php:930 views/advanced-status.php:325
+msgid "Status"
+msgstr "Status"
+
+#: includes/Documents/Invoice.php:265 includes/Documents/Invoice.php:434
+#: includes/Documents/PackingSlip.php:136
+#: views/setup-wizard/display-options.php:22
+msgid "Always"
+msgstr "Always"
+
+#: includes/Documents/Invoice.php:435
+msgid "Never"
+msgstr "Never"
+
+#: includes/Settings/SettingsGeneral.php:85
+msgid "Paper size"
+msgstr "Paper size"
+
+#: includes/Settings/SettingsGeneral.php:93
+#: views/setup-wizard/paper-format.php:14
+msgid "Letter"
+msgstr "Letter"
+
+#: includes/Settings/SettingsGeneral.php:92
+#: views/setup-wizard/paper-format.php:13
+msgid "A4"
+msgstr "A4"
+
+#: includes/Settings/SettingsGeneral.php:71
+msgid "Choose a template"
+msgstr "Choose a template"
+
+#: includes/Documents/Invoice.php:450
+msgid "Enable invoice number column in the orders list"
+msgstr "Enable invoice number column in the orders list"
+
+#: includes/Documents/Invoice.php:433
+msgid "Only for specific order statuses (define below)"
+msgstr "Only for specific order statuses (define below)"
+
+#: includes/Documents/Invoice.php:432
+msgid "Only when an invoice is already created/emailed"
+msgstr "Only when an invoice is already created/emailed"
+
+#: includes/Documents/Invoice.php:425
+msgid "Allow My Account invoice download"
+msgstr "Allow My Account invoice download"
+
+#: includes/Documents/Invoice.php:484
+msgid "Disable for free orders"
+msgstr "Disable for free orders"
+
+#. translators: directory path
+#: includes/Documents/Invoice.php:235 includes/Documents/Invoice.php:602
+msgid "It looks like the temp folder (<code>%s</code>) is not writable, check the permissions for this folder! Without having write access to this folder, the plugin will not be able to email invoices."
+msgstr "It looks like the temp folder (<code>%s</code>) is not writable, check the permissions for this folder! Without having write access to this folder, the plugin will not be able to email invoices."
+
+#: includes/Settings/SettingsGeneral.php:64
+msgid "Open the PDF in a new browser tab/window"
+msgstr "Open the PDF in a new browser tab/window"
+
+#: includes/Settings/SettingsGeneral.php:63
+msgid "Download the PDF"
+msgstr "Download the PDF"
+
+#: includes/Settings/SettingsGeneral.php:56
+msgid "How do you want to view the PDF?"
+msgstr "How do you want to view the PDF?"
+
+#: includes/Settings/SettingsGeneral.php:50
+#: includes/Settings/SettingsUbl.php:153
+msgid "General settings"
+msgstr "General settings"
+
+#: includes/Settings.php:96 includes/Settings.php:97
+msgid "PDF Invoices"
+msgstr "PDF Invoices"
+
+#: includes/Documents/PackingSlip.php:73
+msgid "packing-slip"
+msgid_plural "packing-slips"
+msgstr[0] "packing-slip"
+msgstr[1] "packing-slips"
+
+#. translators: document type
+#: includes/Documents/Invoice.php:131 includes/Documents/Invoice.php:387
+#: includes/Documents/Invoice.php:396 includes/Documents/Invoice.php:404
+#: includes/Documents/Invoice.php:408
+msgid "invoice"
+msgid_plural "invoices"
+msgstr[0] "invoice"
+msgstr[1] "invoices"
+
+#: includes/Main.php:388
+msgid "Some of the export parameters are missing."
+msgstr "Some of the export parameters are missing."
